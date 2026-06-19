@@ -2194,5 +2194,61 @@ footer {
   .signin-hero h1 {
     font-size: 2.2rem;
   }
+  
+  .section {
+    padding: 3.5rem 1.25rem; /* Compact section padding */
+  }
+  
+  .section-header {
+    margin-bottom: 2rem;
+  }
+  
+  .section-header h2 {
+    font-size: 1.8rem; /* Fit section headers */
+  }
+  
+  .grid-3 {
+    grid-template-columns: 1fr; /* Force single column on mobile */
+    gap: 1.2rem;
+  }
+  
+  .glass-card {
+    padding: 1.5rem; /* Compact card padding */
+  }
+  
+  .diagram-shell {
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Compact metrics row for dashboard in mobile view */
+  .metrics-row {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0.4rem !important;
+  }
+  
+  .metric-panel {
+    padding: 0.5rem 0.4rem !important;
+  }
+  
+  .metric-panel .metric-label {
+    font-size: 0.58rem !important;
+  }
+  
+  .metric-panel .metric-value {
+    font-size: 0.9rem !important;
+    gap: 0.2rem !important;
+  }
 }
+
+/* Tablet & Mobile Hero Height & Padding Adjustments */
+@media (max-width: 1024px) {
+  .hero {
+    min-height: auto;
+    height: auto;
+    padding-top: 110px;
+    padding-bottom: 3.5rem;
+  }
+}
+
 
