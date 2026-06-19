@@ -355,6 +355,16 @@ export const LibrarianDashboardPage = () => {
           </div>
         </div>
 
+        {/* Mobile Warning */}
+        <div className="mobile-browser-warning animate-fade-up">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2.5" fill="none" style={{ flexShrink: 0 }}>
+            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+            <line x1="12" y1="9" x2="12" y2="13"></line>
+            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+          </svg>
+          <span><strong>Desktop Recommended:</strong> This 3D dashboard is optimized for desktop systems. It may not render or perform correctly on mobile devices.</span>
+        </div>
+
         {/* Side Panels */}
         <div className="panels">
           {/* Left Panel: Active Sessions list */}

@@ -2250,5 +2250,27 @@ footer {
     padding-bottom: 3.5rem;
   }
 }
+/* Mobile Browser Warning Overlay Banner */
+.mobile-browser-warning {
+  display: none; /* Hidden on desktop screens */
+}
 
-
+@media (max-width: 768px) {
+  .mobile-browser-warning {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: rgba(239, 68, 68, 0.15); /* Semi-transparent warning red */
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: #fca5a5;
+    padding: 0.85rem 1.1rem;
+    border-radius: 12px;
+    margin: 1.25rem 1.25rem 0.25rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    pointer-events: auto; /* Let clicks pass inside warning */
+    z-index: 150;
+    text-align: left;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+}

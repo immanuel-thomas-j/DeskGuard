@@ -21,11 +21,7 @@ Built for [NextGenHacks 2026](https://nextgenhacks.devpost.com)
 ---
 
 ## 📸 System Mindmap
-
-<div align="center">
-  <img width="1200" alt="Homepage" src="/architecture.png" />
-  <p><em>DeskGuard System Architecture & Mindmap</em></p>
-</div>
+<img width="5885" height="2698" alt="image" src="https://github.com/user-attachments/assets/04d794d7-d04a-422f-b7a8-f6f8c6683be2" />
 
 ---
 
